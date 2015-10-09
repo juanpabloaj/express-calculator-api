@@ -1,0 +1,19 @@
+{
+  "name": "express-calculator-api",
+  "version": "0.1.0",
+  "description": "A express calculator API",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanpabloaj/express-calculator-api.git"
+  },
+  "author": "JuanPabloAJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanpabloaj/express-calculator-api/issues"
+  },
+  "homepage": "https://github.com/juanpabloaj/express-calculator-api#readme"
+}
