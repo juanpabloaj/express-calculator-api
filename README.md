@@ -19,3 +19,9 @@ Send JSON
 Get
 
     {result: 5}
+
+## Docker
+
+Get the docker container
+
+    docker pull juanpabloaj/express-calculator-api
