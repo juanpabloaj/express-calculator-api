@@ -1,10 +1,16 @@
 # express-calculator-api
 
-### Install
+## Install
 
     npm install
 
-### Usage
+## Usage
+
+### server
+
+    npm start
+
+### client
 
 Send JSON
 
