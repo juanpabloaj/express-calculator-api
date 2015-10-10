@@ -12,13 +12,13 @@
 
 ### client
 
-Send JSON
+Send
 
-    {"op":"+", "ops":[2, 3]}
+    query={"op":"+", "ops":[2, 3]}
 
 Get
 
-    {result: 5}
+    5
 
 ## Docker
 
