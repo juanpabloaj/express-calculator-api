@@ -11,13 +11,17 @@ var port = 8888;
 
 app.post('/', function(req, res){
 
-  var json = req.body;
-  if (json !== {}) {
+  var json = JSON.parse(req.body.query);
+
+  if (json) {
     if (json.op && json.ops) {
-      res.json({
-        result:operations.operation(json.op, json.ops)
-      });
+      var result = String(operations.operation(json.op, json.ops));
+      res.send(result);
+    } else {
+      res.send("null")
     }
+  } else {
+    res.send("null")
   }
 
 });
