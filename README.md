@@ -25,3 +25,7 @@ Get
 Get the docker container
 
     docker pull juanpabloaj/express-calculator-api
+
+Use
+
+    docker run -p 8888:8888 juanpabloaj/express-calculator-api
